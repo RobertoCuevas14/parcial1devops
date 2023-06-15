@@ -2,26 +2,35 @@
 <html>
 <head>
   <title>Página de celulares</title>
+  <link rel="stylesheet" href="styles.css">
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 20px;
+      background-color: #f3f3f3;
     }
     h1 {
       color: #333333;
+      text-align: center;
     }
     .phone-list {
       list-style-type: none;
       padding: 0;
     }
     .phone-list-item {
-      margin-bottom: 10px;
+      margin-bottom: 20px;
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
     .phone-details {
       display: none;
       margin-top: 10px;
       padding: 10px;
       border: 1px solid #ccc;
+      background-color: #f9f9f9;
+      border-radius: 5px;
     }
     .phone-list-item .toggle-details {
       cursor: pointer;
@@ -62,9 +71,4 @@
       <h2>Google</h2>
       <button class="toggle-details" onclick="toggleDetails(this)">Mostrar detalles</button>
       <div class="phone-details">
-        <p>Los teléfonos Google, como la serie Pixel, son reconocidos por su enfoque en la fotografía y la integración profunda con los servicios de Google. Ofrecen una experiencia de Android pura, actualizaciones rápidas del sistema operativo y características únicas, como el Asistente de Google.</p>
-      </div>
-    </li>
-  </ul>
-</body>
-</html>
+        <p>Los teléfonos Google, como la serie Pixel, son reconocidos por su enfoque en la fotografía y la integración profunda con los servicios
